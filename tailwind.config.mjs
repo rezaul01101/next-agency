@@ -8,8 +8,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#F5F3F4",
+        orange: {
+          500: "#FF7A01",
+          400: "rgba(255, 124, 1, 0.1568627451)",
+        },
+        black: "#5A5F6A",
+      },
+      fontFamily: {
+        Figtree: "var(--font-family-figtree)",
       },
     },
   },

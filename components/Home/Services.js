@@ -25,13 +25,6 @@ const Services = () => {
         <div className="grid grid-cols-3 my-14 h-[480px] w-full gap-10">
           {servicesData.map((service) => (
             <ServiceCard key={service.id} data={service}/>
-            // <div key={service.id} className="rounded-md">
-            //   <Image
-            //     src={service.image}
-            //     alt=""
-            //     className="w-full h-[480px] rounded-md object-cover"
-            //   />
-            // </div>
           ))}
         </div>
         <div className="flex justify-center w-full">

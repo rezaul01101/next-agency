@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import BrandSlider from "@/components/Home/BrandSlider";
 import HeroSection from "@/components/Home/HeroSection";
 import Services from "@/components/Home/Services";
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyChoose />
       <Services />
       <Teams />
+      <Footer />
     </>
   );
 }

@@ -55,7 +55,7 @@ const Nav = () => {
               </ul>
             </li>
             <li className=" px-[14px] py-[8px]">
-              <Link href={"/"} className="hover:text-orange-500">
+              <Link href={"/services"} className="hover:text-orange-500">
                 Services
               </Link>
             </li>
@@ -65,11 +65,7 @@ const Nav = () => {
                 About us
               </Link>
             </li>
-            <li className=" px-[14px] py-[8px]">
-              <Link href={"/"} className="hover:text-orange-500">
-                Blogs
-              </Link>
-            </li>
+           
             <li className=" px-[14px] py-[8px]">
               <Link href={"/contact-us"} className="hover:text-orange-500">
                 Contact us

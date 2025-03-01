@@ -2,7 +2,7 @@
 
 const ServiceCard = ({ data }) => {
   return (
-    <div className="relative w-full h-full overflow-hidden rounded-lg shadow-lg group cursor-pointer">
+    <div className="relative w-full overflow-hidden rounded-lg shadow-lg group cursor-pointer h-[480px]">
       <div className="absolute inset-0">
         <img
           src={data?.image?.src}

@@ -1,5 +1,4 @@
-import servicesData from "@/utils/data/services";
-import Image from "next/image";
+import {servicesData} from "@/utils/data/services";
 import React from "react";
 import Button from "../ui/Button";
 import ServiceCard from "../ui/ServiceCard";

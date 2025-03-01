@@ -41,16 +41,16 @@ const Nav = () => {
             </li>
             <li className=" px-[14px] py-[8px] relative z-10 group">
               <Link href={"/"} className="hover:text-orange-500 flex items-center gap-1">
-                Pages <MdOutlineKeyboardArrowDown className="font-bold text-2xl" />
+                Job Post <MdOutlineKeyboardArrowDown className="font-bold text-2xl" />
               </Link>
               <ul
                 className="absolute top-[50px] left-0 bg-white rounded-md p-[10px] shadow-[rgba(0,0,0,0.068)_0px_20px_30px] min-w-[256px] opacity-0 invisible  transition-all duration-300 translate-y-[20px] group-hover:translate-y-0 group-hover:opacity-100 group-hover:visible "
               >
                 <li className="relative">
-                  <Link href="/" className="py-[8px] px-[15px] block hover:text-orange-500">Job Post </Link>
+                  <Link href="/job/post" className="py-[8px] px-[15px] block hover:text-orange-500">Job Post </Link>
                 </li>
                 <li className="relative">
-                  <a href="/" className="py-[8px] px-[15px] block hover:text-orange-500">Job Details</a>
+                  <a href="/job/details" className="py-[8px] px-[15px] block hover:text-orange-500">Job Details</a>
                 </li>
               </ul>
             </li>
@@ -59,21 +59,7 @@ const Nav = () => {
                 Services
               </Link>
             </li>
-            <li className=" px-[14px] py-[8px] relative z-10 group">
-              <Link href={"/"} className="hover:text-orange-500 flex items-center gap-1">
-                Job Post <MdOutlineKeyboardArrowDown className="font-bold text-2xl" />
-              </Link>
-              <ul
-                className="absolute top-[50px] left-0 bg-white rounded-md p-[10px] shadow-[rgba(0,0,0,0.068)_0px_20px_30px] min-w-[256px] opacity-0 invisible  transition-all duration-300 translate-y-[20px] group-hover:translate-y-0 group-hover:opacity-100 group-hover:visible "
-              >
-                <li className="relative">
-                  <Link href="/" className="py-[8px] px-[15px] block hover:text-orange-500">Job Post </Link>
-                </li>
-                <li className="relative">
-                  <a href="/" className="py-[8px] px-[15px] block hover:text-orange-500">Job Details</a>
-                </li>
-              </ul>
-            </li>
+          
             <li className=" px-[14px] py-[8px]">
               <Link href={"/about"} className="hover:text-orange-500">
                 About us

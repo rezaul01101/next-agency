@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="bg-orange-400 text-orange-500 inline-block px-[12px] py-[8px] font-medium mb-2">
           Staffing Power Your Success
         </div>
-        <h3 className="text-[75px] font-extrabold leading-[90px] my-5">
+        <h3 className="text-[60px] font-extrabold leading-[70px] my-5">
           Growth Exceptional Talent Let's Build Success Together
         </h3>
         <p className="font-medium leading-[30px] text-[18px] text-justify my-5 text-slate-500">
@@ -28,7 +28,7 @@ const HeroSection = () => {
             alt=""
           />
         </div>
-        <div className="absolute top-[50px] right-[150px] rounded-[0_0_50%_50%] overflow-hidden">
+        <div className="absolute top-[50px] right-[96px] rounded-[0_0_50%_50%] overflow-hidden">
           <Image
             src={heroImage}
             className="w-full h-[500px] object-contain"

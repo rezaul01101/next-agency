@@ -1,3 +1,6 @@
+"use client";
+
+import { useState, useEffect } from "react";
 import { logo } from "@/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,9 +8,23 @@ import { GoArrowUpRight } from "react-icons/go";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const Nav = () => {
+  const [isSticky, setIsSticky] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="border-b border-white">
-      <div className="container mx-auto h-[80px] flex justify-between items-center">
+    <div className={`border-b border-white z-50 transition-all duration-500 ease-in-out ${isSticky ? "fixed top-0 translate-y-0 opacity-100 w-full bg-white" : "relative"}`}>
+      <div className="container mx-auto h-[80px] flex justify-between items-center transition-all duration-500 ease-in-out">
         <Link href="/">
           <Image
             src={logo}
@@ -58,12 +75,17 @@ const Nav = () => {
               </ul>
             </li>
             <li className=" px-[14px] py-[8px]">
+              <Link href={"/about"} className="hover:text-orange-500">
+                About us
+              </Link>
+            </li>
+            <li className=" px-[14px] py-[8px]">
               <Link href={"/"} className="hover:text-orange-500">
                 Blogs
               </Link>
             </li>
             <li className=" px-[14px] py-[8px]">
-              <Link href={"/"} className="hover:text-orange-500">
+              <Link href={"/contact-us"} className="hover:text-orange-500">
                 Contact us
               </Link>
             </li>

@@ -10,17 +10,17 @@ const WhyChoose = () => {
       <div className="container h-[750px] mx-auto grid grid-cols-2 items-center w-full">
         <div className="grid grid-cols-12 w-full gap-8">
           <div className="col-span-4 flex flex-col items-center justify-between">
-            <div className="bg-[#F5F3F4] gap-1 p-8 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
+            <div className="bg-[#F5F3F4] gap-1  px-4 py-5 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
               <ImCalculator className="text-4xl" />
               <h3 className="text-2xl font-bold">98%</h3>
               <p className=" text-xl">Successful Client</p>
             </div>
-            <div className="bg-[#F5F3F4] gap-1 p-8 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
+            <div className="bg-[#F5F3F4] gap-1  px-4 py-5 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
               <ImCalculator className="text-4xl" />
               <h3 className="text-2xl font-bold">79% </h3>
               <p className=" text-xl">Team Advisors</p>
             </div>
-            <div className="bg-[#F5F3F4] gap-1 p-8 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
+            <div className="bg-[#F5F3F4] gap-1 px-4 py-5 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
               <ImCalculator className="text-4xl" />
               <h3 className="text-2xl font-bold">12+</h3>
               <p className=" text-xl">Years Experience</p>

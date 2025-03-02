@@ -6,10 +6,10 @@ import { IoCheckmarkCircleSharp } from "react-icons/io5";
 
 const WhyChoose = () => {
   return (
-    <div className="bg-white">
-      <div className="container h-[750px] mx-auto grid grid-cols-2 items-center w-full">
-        <div className="grid grid-cols-12 w-full gap-8">
-          <div className="col-span-4 flex flex-col items-center justify-between">
+    <div className="bg-white md:py-0 py-20">
+      <div className="container min-h-[750px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center w-full justify-center px-4 md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-12 w-full gap-8 md:my-0 my-10">
+          <div className="col-span-12 md:col-span-4 flex flex-col items-center justify-between gap-4 md:gap-0 w-full">
             <div className="bg-[#F5F3F4] gap-1  px-4 py-5 flex flex-col items-center justify-center rounded-md cursor-pointer w-full">
               <ImCalculator className="text-4xl" />
               <h3 className="text-2xl font-bold">98%</h3>
@@ -26,15 +26,15 @@ const WhyChoose = () => {
               <p className=" text-xl">Years Experience</p>
             </div>
           </div>
-          <div className=" col-span-8">
+          <div className="col-span-12 md:col-span-8">
             <Image src={choose} alt="" className="w-full rounded-md" />
           </div>
         </div>
-        <div className="pl-10 pr-10">
+        <div className="md:px-10">
           <div className="bg-orange-400 text-slate-900 inline-block px-[12px] py-[8px] rounded-md font-medium mb-2">
             Why Choose Us
           </div>
-          <h3 className="text-[50px] font-extrabold leading-[60px] my-2">
+          <h3 className="md:text-[50px] text-[35px] font-extrabold md:leading-[60px] leading-[50px] my-2">
             Choose Excellence <br /> Elevate Your Hiring <br /> Experience
           </h3>
           <p className="font-Figtree leading-[30px] text-[18px] text-justify my-4 text-slate-500">

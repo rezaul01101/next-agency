@@ -2,7 +2,7 @@ import { FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 const TeamCard = ({ data }) => {
   return (
-    <div className="relative w-full h-full overflow-hidden rounded-lg shadow-lg group cursor-pointer">
+    <div className="relative w-full h-full overflow-hidden rounded-lg shadow-lg group cursor-pointer min-h-[480px]">
       <div className="absolute inset-0">
         <img
           src={data?.image?.src}

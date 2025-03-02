@@ -8,8 +8,8 @@ const page = () => {
     <>
       <PageHeader name={"Job Post"} />
       <div className="bg-white">
-        <div className="py-20 container mx-auto">
-          <div className="grid grid-cols-3 gap-8">
+        <div className="py-20 md:px-0 px-4 container mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {posts.map((post) => (
               <JobPostCart key={post.id} data={post} />
             ))}

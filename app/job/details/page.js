@@ -9,10 +9,10 @@ const page = () => {
   return (
     <>
       <PageHeader name={"Social Media Specialist"} />
-      <div className="bg-white py-20 h-full">
-        <div className="grid grid-cols-4 container mx-auto ">
+      <div className="bg-white py-20 h-full md:px-0 px-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 container mx-auto ">
           <div className="col-span-3">
-            <div className="flex gap-4 items-center">
+            <div className="flex flex-wrap gap-4 items-center">
               <div className="bg-orange-400 text-slate-900 inline-block px-[8px] py-[5px] rounded-md font-medium ">
                 Part Time
               </div>

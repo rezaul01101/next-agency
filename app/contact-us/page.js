@@ -9,7 +9,7 @@ const ContactUs = () => {
     <>
       <PageHeader name="Contact us" />
       <div className="bg-white py-28">
-        <div className="container mx-auto flex justify-between items-center gap-20">
+        <div className="container mx-auto flex justify-between md:flex-row flex-col items-center gap-20 md:px-0 px-4">
           <div>
             <div className="bg-orange-400 text-slate-900 inline-block px-[12px] py-[8px] rounded-md font-medium mb-2">
               Contact us
@@ -22,7 +22,7 @@ const ContactUs = () => {
               needs. Whether you're a company looking to hire top talent or a
               candidate seeking your next career opportunity,
             </p>
-            <div className="flex justify-between my-8 border-t">
+            <div className="flex justify-between md:flex-row flex-col my-8 border-t">
               <div className="pt-8 border-r w-full">
                 <div className="w-[50px] h-[50px] cursor-pointer bg-orange-100 text-orange-500 rounded-full flex justify-center items-center hover:bg-orange-500  hover:text-white">
                   <IoCallOutline className="text-xl" />
@@ -30,7 +30,7 @@ const ContactUs = () => {
                 <p className=" my-2">Gives us a Call</p>
                 <a className="text-xl text-slat-900 font-bold" href="tel:123-456-7890">123-456-7890</a>
               </div>
-              <div className="pt-8 w-full pl-8">
+              <div className="pt-8 w-full md:pl-8">
               <div className="w-[50px] h-[50px] cursor-pointer bg-orange-100 text-orange-500 rounded-full flex justify-center items-center hover:bg-orange-500  hover:text-white">
                   <CiMail className="text-xl" />
                 </div>
